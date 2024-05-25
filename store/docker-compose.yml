@@ -1,0 +1,8 @@
+version: '2.2'
+services:
+  java_app: 
+    container_name: java_app_store
+    image: store_api:1.0.0
+    build: .
+    ports: 
+      - 4000:4000
