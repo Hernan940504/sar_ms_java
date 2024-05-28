@@ -1,8 +1,8 @@
-version: '2.2'
+version: '3.8'
 services:
   java_app: 
     container_name: java_app_store
-    image: store_api:1.0.0
+    image: ghcr.io/hernan940504/sar_ms_java:v1.0.0
     build: .
     ports: 
       - 4000:4000
